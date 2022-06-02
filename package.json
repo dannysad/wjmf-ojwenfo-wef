@@ -1,0 +1,24 @@
+{
+  "name": "astra-music",
+  "main": "main.js",
+  "author": "Umut Bayraktar",
+  "description": "Open Source Codes of Astra Music Bot.",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.8.0",
+    "discord-player": "^5.2.0",
+    "discord-sync-commands-v14": "^2.0.0",
+    "discord.js": "^13.6.0",
+    "express": "^4.18.1",
+    "ffmpeg-static": "^4.4.0",
+    "mongoose": "^6.3.4",
+    "ms": "^3.0.0-canary.1",
+    "opusscript": "^0.0.8",
+    "orio.db": "^3.1.1"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
